@@ -2,9 +2,45 @@
 /*Task 2 (medium): format our image to be beside the paragraph and change its size.*/
 /*Task 3 (easy): add fonts, font colors, background colors, etc. to our page.*/
 
+body {
+    margin: 0px;
+}
 
 /*Changing attributes of an element example with header 1*/
 h1 {
     color: black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+#pageHead {
+    background-color: rgb(240, 226, 81) ;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#pageTitle {
+    font-family: Cookie;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+#navBar {
+    font-family: Piazzolla;
+    text-decoration: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.pageLink {
+    text-decoration: none;
+    color: black;
+    transition: transform 2s ease-in;
+}
+
+.pageLink:hover {
+    text-decoration: underline;
+}
+
+
