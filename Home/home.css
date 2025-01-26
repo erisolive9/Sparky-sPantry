@@ -1,16 +1,13 @@
-/*Task 1 (difficult): format the navigation bar by putting the titles next to each other.*/
-/*Task 2 (medium): format our image to be beside the paragraph and change its size.*/
-/*Task 3 (easy): add fonts, font colors, background colors, etc. to our page.*/
-
 body {
     margin: 0px;
 }
 
-/*Changing attributes of an element example with header 1*/
+/*Changing attributes of an element (text color) example with header 1*/
 h1 {
     color: black;
 }
 
+/* The period (#) in front of the name tells the program that we're referencing a singlular element with its ID*/
 #pageHead {
     background-color: rgb(240, 226, 81) ;
     width: 100%;
@@ -33,14 +30,14 @@ h1 {
     gap: 120px;
 }
 
+/* The period (.) in front of the name tells the program that we're referencing a class (multiple similar elements)*/
 .pageLink {
     text-decoration: none;
     color: black;
     transition: transform 2s ease-in;
 }
 
+/*The colon (:) after the element's class shows an action the user can do (hover over it). This makes it appear differently with user input.*/
 .pageLink:hover {
     text-decoration: underline;
 }
-
-

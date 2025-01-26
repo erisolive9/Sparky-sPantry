@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+}
+
+/*Changing attributes of an element (text color) example with header 1*/
+h1 {
+    color: black;
+}
+
+/* The period (#) in front of the name tells the program that we're referencing a singlular element with its ID*/
+#pageHead {
+    background-color: rgb(240, 226, 81) ;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#pageTitle {
+    font-family: Cookie;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+#navBar {
+    font-family: Piazzolla;
+    text-decoration: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+/* The period (.) in front of the name tells the program that we're referencing a class (multiple similar elements)*/
+.pageLink {
+    text-decoration: none;
+    color: black;
+    transition: transform 2s ease-in;
+}
+
+/*The colon (:) after the element's class shows an action the user can do (hover over it). This makes it appear differently with user input.*/
+.pageLink:hover {
+    text-decoration: underline;
+}
+
+
